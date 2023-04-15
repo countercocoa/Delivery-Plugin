@@ -1,0 +1,9 @@
+name: DeliveryPlugin
+version: '${project.version}'
+main: com.github.countercocoa.deliveryplugin.DeliveryPlugin
+api-version: 1.17
+
+commands:
+  del:
+    description: delivery command.
+    usage: /del <player>
